@@ -20,9 +20,11 @@ import {
     tesla,
     shopify,
     carrent,
+    pizza,
     jobit,
     tripguide,
     threejs,
+
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "NodeJS developer",
       icon: mobile,
     },
     {
@@ -129,7 +131,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "NodeJS developer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -172,7 +174,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Марат хороший",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,15 +182,15 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "Марат хороший",
+      name: "50Cent",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Марат хороший",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -198,7 +200,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pizza app",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,7 +209,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
@@ -215,7 +217,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      link: "https://react-pizza-mu-ten.vercel.app/",
+      image: pizza,
       source_code_link: "https://github.com/",
     },
     {
@@ -236,6 +239,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      link: "https://github.com/",
       image: jobit,
       source_code_link: "https://github.com/",
     },
@@ -257,6 +261,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      link: "https://github.com/",
       image: tripguide,
       source_code_link: "https://github.com/",
     },
